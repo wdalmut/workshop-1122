@@ -5,7 +5,7 @@ phases:
       - npm install
   post_build:
     commands:
-      - zip -r $(date +%Y-%m-%d).zip
+      - zip -r $(date +%Y-%m-%d).zip *
 artifacts:
   files:
     - '$(date +%Y-%m-%d).zip'
