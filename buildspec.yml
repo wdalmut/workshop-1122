@@ -5,5 +5,5 @@ phases:
       - npm install
 artifacts:
   files:
-    - '*/**'
+    - '**/*'
   name: app-$(date +%Y-%m-%d)
